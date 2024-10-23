@@ -1,5 +1,5 @@
 const {validationResult} =require('express-validator');
-const Product = require('../models/Product.model');
+const Product = require('../models/product.model');
 const httpStatusText = require('../utils/httpStatusText');
 const messages = require('../utils/messages');
 const asyncWrapper = require('../middleware/asyncWrapper');
